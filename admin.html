@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Admin - URBAN LAM STYLE STREET WEAR</title>
+<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<main class="container">
+
+
+<h1>Panel de Administración</h1>
+
+<section id="loginSection">
+<input id="adminPass" placeholder="Contraseña" type="password"/>
+<button id="loginBtn">Entrar</button>
+
+</section>
+
+<section id="adminSection" style="display:block;">
+<h2>Agregar producto</h2>
+<input id="prodName" placeholder="Nombre"/>
+<input id="prodPrice" placeholder="Precio" type="number"/>
+<input id="prodCategory" placeholder="Categoría"/>
+<input id="prodImg" placeholder="Ruta imagen (img/ejemplo.jpg)"/>
+<h2>Lista de productos</h2>
+<button onclick="newProduct()">➕ Nuevo Producto</button>
+<table border="1">
+<thead>
+<tr>
+<th>ID</th>
+<th>Nombre</th>
+<th>Precio</th>
+<th>Categoría</th>
+<th>Imagen</th>
+<th>Acciones</th>
+</tr>
+</thead>
+<tbody id="admin-product-list"></tbody>
+</table>
+</section>
+</main>
+<script src="js/admin.js"></script>
+</body>
+</html>

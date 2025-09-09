@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="URBAN LAM STYLE"/>
+<title>URBAN LAM STYLE</title>
+<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="hero">
+<div class="container">
+<img alt="Logo de la marca" class="brand-logo" src="img/urban lam style.jpg"/>
+<h1 id="brandName">URBAN LAM STYLE</h1>
+<p id="brandSlogan">EL ESTILO DE LOS GRANDES</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#productos">Ver productos</a>
+<a class="btn btn-outline" href="https://wa.me/7227929961" target="_blank">whatsapp </a>
+</div>
+</div>
+</header>
+<nav class="nav">
+<div class="container nav-inner">
+<a class="nav-brand" href="#productos" id="brandShort">URBAN LAM STYLE</a>
+<div class="nav-actions">
+<input id="search" placeholder="Buscar..." type="search"/>
+<select id="filterCategory"></select>
+<button class="cart-button" id="cartBtn">
+          🛒 <span id="cartCount">0</span>
+</button>
+</div>
+</div>
+</nav>
+<main class="container">
+<section class="products" id="productos"></section>
+</main>
+<!-- Carrito -->
+<aside class="cart-sidebar" id="cartSidebar">
+<div class="cart-header">
+<h2>Tu carrito</h2>
+<button id="closeCart">✕</button>
+</div>
+<div id="cartItems"></div>
+<div class="cart-footer">
+<p>Total: <span id="cartTotal">$0.00</span></p>
+<a class="btn btn-buy" href="#" id="checkoutBtn" target="_blank">Finalizar compra</a>
+</div>
+</aside>
+<script src="js/script.js"></script>
+</body>
+<section id="productos">
+<h2>Nuestros Productos</h2>
+<!-- Barra de búsqueda -->
+<input id="searchInput" placeholder="Buscar por nombre o categoría..." type="text"/>
+<!-- Contenedor de productos -->
+<div id="store"></div>
+</section>
+<script src="js/store.js"></script>
+</html>
