@@ -1,0 +1,11 @@
+[
+  {"id":"p,1","name":"DEAD OR RICH","price":250,"category":"T SHIRT","img":"assets/img/playera snoopy.png"},
+  {"id":"p,2","name":"G COSMICO","price":250,"category":"T SHIRT","img":"assets/img/Guardian cosmico.png"},
+  {"id":"p,3","name":"Rick & morty","price":250,"category":"Sudaderas","img":"assets/img/C RICK Y M.png"},
+  {"id":"p,4","name":"INFIERNO 9","price":250,"category":"T SHIRT","img":"assets/img/PLAYERA Toluca.png"},
+  {"id":"p,5","name":"VENOM ","price":250,"category":"T SHIRT","img":"assets/img/venom negro.png"},
+  {"id":"p,6","name":"LOTERIA URBAN","price":250,"category":"Sudaderas","img":"assets/img/LOTERIA MODEL BLACK.png" }
+]
+  
+
+
